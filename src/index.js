@@ -49,7 +49,7 @@ function angularize(Component, componentName, angularApp, bindings) {
 			}
 
 			this.$onChanges = () => {
-				renderInfo = _this;
+				renderInfo = this;
                 render();
 			};
 		}]
